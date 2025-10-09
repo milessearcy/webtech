@@ -1,0 +1,120 @@
+/* ---- SCSS Demo ---- */
+
+/*  ---------------Box Sizing-----------------  */
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+
+
+/*----------------Utility Classes-----------------*/
+
+.container{
+    background-color: red;
+    background-color: transparent;
+    width:80vw;
+    max-width: 960px;
+    margin-left:20px;
+}
+
+
+
+/*---------------Responsive Images----------------*/
+
+img{
+  max-width: 100%;
+}
+
+
+/*----------------Global Styles ------------------*/
+
+body{
+    font-family: "Montserrat", sans-serif;
+    margin:0;  
+
+
+    header.primary{
+        background-color: #CA68ED;
+        text-align:center;
+        text-shadow: 2px 2px #000000;  
+        color:#ffffff;
+        /*Single value short hand*/
+        padding: 20px;  
+        /*long form*/
+        padding-top: 40px;
+        padding-right: 40px;
+        padding-bottom: 40px;
+        padding-left: 40px;  
+        /* T,R,B,L */
+        padding: 20px 40px 20px 40px;  
+        /* Two Value Top/Bottom / L/R */
+        padding: 20px 40px;  
+
+        h1{
+            font-size: 2.4rem;
+            margin:20px 0 0 0;  
+
+            a{
+                color:#ffffff;
+                text-decoration:none;
+            }
+        }
+        h2{
+            font-size: 1.4rem;
+            letter-spacing:.2px; 
+            margin:10px 0 0 0;  
+        }
+        nav{
+            ul{
+                padding:0;
+                display: flex;
+                justify-content: space-around;
+
+                li{
+                    list-style-type: none;
+                }
+                
+                a{
+                    color:#ffffff;
+                    background-color: rgba(0,0,0,.5);
+                    padding: 5px 7.5px;
+                    border-radius: 20px;
+                    text-decoration: none;
+                    font-size: .9rem;
+                    transition: .4px;
+                }
+
+                a:hover{
+                    background-color: rgba(0,0,0,1);
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 500px){
+  header.primary{
+    nav{
+      ul{
+        flex-direction: column;
+        gap: 20px;
+
+        a{
+          display: block;
+        }
+      }
+    }
+  }
+  .container{
+
+    width:90vw;
+    margin:20px auto;
+  }
+}
