@@ -61,7 +61,6 @@ margin:0;
 
 header.primary{
 background-color: #CA68ED;
-background-image:
 text-align:center;
 text-shadow: 2px 2px #000000;  
 color:#ffffff;
@@ -199,18 +198,73 @@ aside .widget footer{
   border-left: 7.5px solid #CA68ED;
   padding: 7.5px;
 }
-#practice table{
 
+#practice table{
+width:100%;
+border: 1px solid #7368ED;
+border-collapse: collapse;
+}
+#practice caption{
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin:10px;
 }
 #practice tr{
 
 }
+#practice tr:nth-child(even){
+  background-color: rgba(0,0,0,.1);
+}
+#practice tr:hover{
+  background-color: rgba(0,0,0,.5);
+}
 #practice th{
-
+  border: 1px solid #7368ED;
+  background-color: #7368ED;
+  padding: 5px;
 }
-practice td{
-
+#practice td{
+  border: 1px solid #7368ED;
+  padding: 5px;
 }
+#practice td:nth-child(1n + 2){
+  text-align: right;
+  
+}
+
+
+
+#practice ol{
+  list-style-type:lower-roman;
+}
+#practice ul ul{
+  color: red;
+}
+#practice dt{
+  font-weight: bold;
+}
+#practice dd{
+  margin-left: 0px;
+}
+#practice dd + dt{
+  margin-top: 10px;
+}
+#practice blockquote{
+  border: 4px double;
+  border-radius: 100px;
+  color: white;
+  padding: 20px;
+  margin: 20px;
+  background-color: #CA68ED;
+}
+
+#practice blockquote cite{
+  margin-top: 10px;
+  text-align: right;
+  display: block;
+}
+
+
 
 
 
@@ -241,4 +295,13 @@ practice td{
   width:100%;
   margin:20px auto;
 }
+  #content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  border-top: 1px solid #ccc;
+}
+
+
 }

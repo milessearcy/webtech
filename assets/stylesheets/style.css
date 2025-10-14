@@ -1,0 +1,57 @@
+img {
+  max-width: 100%;
+}
+
+img.center {
+  max-width: 75%;
+  display: block;
+  margin: auto;
+  padding: 10px;
+}
+
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: "Sour Gummy", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  margin: 0;
+}
+body header {
+  background-color: #954DDB;
+  padding: 1px;
+}
+body header h1 {
+  text-align: center;
+}
+body nav {
+  background-color: #D2B4DB;
+  padding: 1px;
+}
+body nav ul {
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  gap: 15px;
+}
+body nav ul li {
+  list-style: none;
+}
+body nav ul li a {
+  color: hsl(0, 0%, 90%);
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  padding: 5px;
+}
+body nav ul li a:hover {
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+/*# sourceMappingURL=style.css.map */
