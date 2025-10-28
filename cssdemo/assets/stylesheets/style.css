@@ -209,9 +209,6 @@ border-collapse: collapse;
   font-size: 1.3rem;
   margin:10px;
 }
-#practice tr{
-
-}
 #practice tr:nth-child(even){
   background-color: rgba(0,0,0,.1);
 }
