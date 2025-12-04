@@ -61,7 +61,7 @@ function renderPage(page){
         const tr = document.createElement("tr");
         tr.id = 'itemRow'
         tr.innerHTML = `
-        <td>${item.name} </td>
+        <td><img src="./assets/img/sprites/${item.id}.png" alt="sprite of ${item.name}">${item.name} </td>
         <td>${item.high} gp</td>
         <td>${item.low} gp</td>
         <td>${item.alch} gp</td>
