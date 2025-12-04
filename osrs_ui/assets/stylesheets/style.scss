@@ -2,24 +2,6 @@
 // sass style.scss style.css -w
 
 
-.montserrat-mainFont {
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 800;
-  font-style: normal;
-}
-input[type="search"] {
-  padding: 10px 15px;
-  font-size: 16px;
-  border: 2px solid #ccc;
-  border-radius: 8px;
-  outline: none;
-  transition: border 0.2s;
-}
-
-input[type="search"]:focus {
-  border-color: #6a4fbf;
-}
 
 body{
     background-color: #5C3C61;

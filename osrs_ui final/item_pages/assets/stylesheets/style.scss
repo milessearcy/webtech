@@ -1,0 +1,42 @@
+#cards{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    #imageCard{
+        margin-top: 2rem;
+        #itemImage{
+            width:30vw;
+            height:auto;
+            margin:auto;
+        }
+    }
+    #card{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+.topBar{
+    color: white;
+    text-align: center;
+}
+#prices{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    p{
+        font-size: clamp(2rem,1.5vw,100000px);
+    }
+}
+#info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    p{
+        font-size: clamp(1rem,1.5vw,100000px);
+    }
+    
+}
