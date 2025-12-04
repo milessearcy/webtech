@@ -1,0 +1,86 @@
+body {
+  background-color: #5C3C61;
+  margin: 0; }
+
+#card {
+  padding: 1rem;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 8rem;
+  background-color: #B29AB6;
+  color: white;
+  text-align: center;
+  font-size: clamp(1rem, 1.2vw, 100000px); }
+
+table {
+  background-color: #B29AB6;
+  padding: 10px;
+  table-layout: fixed;
+  margin: 0 auto;
+  margin-top: 3rem;
+  width: 80%;
+  border-collapse: collapse;
+  border-radius: 10px; }
+  table #itemRow {
+    background-color: #2E0F33; }
+  table #itemRow:nth-child(even) {
+    background-color: #321936; }
+  table tr th {
+    background-color: #876E8B; }
+  table tr th, table tr td {
+    border-bottom: 1px solid pink;
+    padding: 10px; }
+  table tr td {
+    text-align: center; }
+  table tr td:nth-child(1) {
+    text-align: left; }
+  table #itemRow:hover {
+    background-color: #522948;
+    cursor: pointer; }
+
+.topBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 4rem;
+  width: 100%;
+  display: grid;
+  background-color: #876E8B;
+  padding: auto;
+  grid-template-columns: 1fr 2fr 1fr;
+  list-style-type: none; }
+  .topBar a {
+    color: white;
+    text-align: center;
+    align-self: center;
+    text-decoration: none;
+    font-size: clamp(2rem, 1.2vw, 100000px);
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 100px; }
+  .topBar a:hover {
+    background-color: rgba(0, 0, 0, 0.5); }
+  .topBar #searchBar {
+    display: flex;
+    justify-content: center;
+    align-self: center; }
+    .topBar #searchBar #Search {
+      font-size: clamp(1.5rem, 1.2vw, 100000px); }
+
+.hide {
+  display: none; }
+
+footer {
+  font-size: clamp(1.5rem, 1.2vw, 100000px);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  color: white;
+  margin-top: 3rem;
+  background-color: #876E8B;
+  padding: 1px; }
+  footer #jagexCopyRight {
+    max-width: 50vw; }
+
+/*# sourceMappingURL=style.css.map */

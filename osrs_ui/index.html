@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>OSRS GE Project</title>
+      <meta charset="UTF-8">
+      <meta name="description" content="Keyword rich narrative on site purpose">
+      <meta name="author" content="Miles Searcy">
+      <link href="assets/stylesheets/style.css" rel="stylesheet"> 
+    </head>
+
+
+
+<body>
+    
+        <header>
+          
+            <nav class="topBar">
+            <a href="index.html"  id="Homebutton"> GE Prices </a></li>
+
+            <form id="searchBar">
+              <label for="Search" class="hide">Search For An Item</label>
+              <input type="search" id="Search" name="priceSearch" placeholder="Search for an item..." autocomplete="off">
+              <button type="submit">Search</button>
+            </form>
+
+            <a href="FAQ/faq.html" id="FAQbutton" >FAQ</a>
+            </nav>
+             
+
+        </header>
+    
+        <main>
+
+          <div id="card">
+            <h1>Item Prices</h1>
+            <table id="price-table">
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>High</th>
+                  <th>Low</th>
+                  <th>High Alch</th>
+                </tr>
+              </thead>
+              <tbody id="priceTableBody">
+              </tbody>
+            </table>
+            <div id="tableControls">
+              <button id="prevBtn">Prev</button>
+              <span id = "pageNumber"></span>
+              <button id="nextBtn">Next</button>
+            </div>
+          </div>
+        </main>
+    
+
+      
+
+      <footer id="colophon">
+        <h6>&copy; 2025 Miles Searcy</h6>
+        <h6 id="jagexCopyRight">Created using intellectual property belonging to Jagex Limited under the terms of Jagex's Fan Content Policy. This content is not endorsed by or affiliated with Jagex.</h6>
+      </footer>
+
+      <script src = "assets/js/update.js"></script>
+</body>
+</html>
