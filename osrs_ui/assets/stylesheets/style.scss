@@ -1,9 +1,17 @@
 // sass codes/personal/osrs_ui/assets/stylesheets/style.scss codes/personal/osrs_ui/assets/stylesheets/style.css -w
 // sass style.scss style.css -w
 
+
+.montserrat-mainFont {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
 body{
     background-color: #5C3C61;
-    
+    font-family: "Montserrat", sans-serif;
     margin:0;
 }
 #card{
